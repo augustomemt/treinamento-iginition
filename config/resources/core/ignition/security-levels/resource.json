@@ -1,0 +1,16 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "system-init",
+      "timestamp": "2026-05-25T23:13:39Z"
+    },
+    "lastModificationSignature": "8076189147c7d1ff25b343730c07aa9646d49ae172c2cbd7328cd93c28fac909"
+  }
+}
