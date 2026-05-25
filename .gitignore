@@ -167,6 +167,8 @@ build/
 *.iml
 *.iws
 *.ipr
+*.idb
+
 
 # Eclipse
 .project
@@ -184,6 +186,9 @@ nbdist/
 # OS files
 # ============================================================
 
+# Ignition local metrics database
+
+metricsdb/
 # macOS
 .DS_Store
 .AppleDouble
