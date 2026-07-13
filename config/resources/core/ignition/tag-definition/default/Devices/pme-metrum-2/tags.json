@@ -1,0 +1,63 @@
+[
+  {
+    "valueSource": "opc",
+    "opcItemPath": "[pme-metrum-2]1.HRF3054",
+    "dataType": "Float4",
+    "historyProvider": "Sample_SQLite_Database",
+    "alarms": [
+      {
+        "name": "Test",
+        "priority": "Critical"
+      }
+    ],
+    "historyEnabled": true,
+    "name": "Active Power A",
+    "engUnit": "W",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "[pme-metrum-2]1.HRF3020",
+    "dataType": "Float4",
+    "alarms": [
+      {
+        "mode": "BelowValue",
+        "setpointA": 208.0,
+        "name": "Alarm",
+        "priority": "Medium"
+      }
+    ],
+    "name": "Voltage A-B",
+    "engUnit": "V",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "[pme-metrum-2]1.HRF3000",
+    "dataType": "Float4",
+    "name": "Current A",
+    "engUnit": "A",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  },
+  {
+    "valueSource": "opc",
+    "opcItemPath": "[pme-metrum-2]1.HRF3002",
+    "dataType": "Float4",
+    "alarms": [
+      {
+        "mode": "AboveValue",
+        "setpointA": 5.0,
+        "name": "Alarm",
+        "label": "",
+        "priority": "Medium"
+      }
+    ],
+    "name": "Current B",
+    "engUnit": "A",
+    "tagType": "AtomicTag",
+    "opcServer": "Ignition OPC UA Server"
+  }
+]
